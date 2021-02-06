@@ -7,7 +7,7 @@ license = "MIT"
 description = "A libary to mainly help newer rust-programmers to use basic functions"
 repository = "https://github.com/BrunoWallner/simplified"
 documentation = "https://github.com/BrunoWallner/simplified"
-readme = "https://github.com/BrunoWallner/simplified/blob/main/README.md"
+readme = "README.md"
 
 keywords = ["simple", "simplified", "easy", "beginner"]
 
