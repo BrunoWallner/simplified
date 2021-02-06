@@ -1,5 +1,9 @@
 use std::{thread, time};
+
 use std::io::stdin;
+
+use rand::thread_rng;
+use rand::Rng;
 
 pub fn sleep(millis: u64) {
     let duration = time::Duration::from_millis(millis);
@@ -13,3 +17,11 @@ pub fn input() -> String {
         .expect("Failed to read line");
         return input_string.trim().to_string();
 }
+
+pub fn random(number_1: i32, number_2: i32) -> i32 {
+    let mut rng = thread_rng();
+    let final: i32 = rng.gen_range(number_1..number_2);
+    return final;
+    
+}
+
