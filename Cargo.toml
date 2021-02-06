@@ -1,0 +1,11 @@
+[package]
+name = "simplified"
+version = "0.1.0"
+authors = ["luca Biendl <b.lucab1211@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "A libary to mainly help newer rust-programmers to use basic functions"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
