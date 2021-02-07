@@ -22,11 +22,11 @@ pub fn input() -> String {
 
 pub fn random(number_1: i32, number_2: i32) -> i32 {
     let mut rng = thread_rng();
-    let final: i32 = rng.gen_range(number_1..number_2);
-    return final;
+    let random_number: i32 = rng.gen_range(number_1..number_2);
+    return random_number;
 }
 
-pub fn date() {
+pub fn date() -> DateTime<Utc> {
     let utc: DateTime<Utc> = Utc::now();
     return utc;
 }
